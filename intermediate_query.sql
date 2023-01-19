@@ -13,5 +13,5 @@ FROM
     AS gross_sale_per_capita,
     COUNT(DISTINCT customer_id) AS unique_customers
     FROM orders
-    WHERE EXTRACT(YEAR FROM AGE(NOW(), order_time)) < 2
+    WHERE EXTRACT(YEAR FROM AGE(NOW(), order_time)) < 1
     GROUP BY state, type""");
