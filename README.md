@@ -32,7 +32,7 @@ This project is impleneted in Python 3.10. Libraries include:
   * BigQuery script that aggregate Cloud SQL data into a table that summarizes sales statistics per state per pizza type over the last 12 months.
 * final_query.sql
   * BigQuery script that reports the top-3-selling pizza per state by taking in result from the query above.
-* top3_pizza_category_by_state_12mon(sample%20export).xlsx
+* top3_pizza_category_by_state_12mon(sample export).xlsx
   * Output from the last query in excel format; final output of the pipeline.
 
 # Details
