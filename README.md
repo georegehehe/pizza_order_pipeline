@@ -15,7 +15,7 @@ This project is impleneted in Python 3.10. Libraries include:
 # Data Flow Chart
 ![alt text](./Project%20DataFlow.jpeg?raw=true)
 
-# KFiles
+# Files
 * RequestHandler.py
   * Cloud Function implementation that respond to Pub/Sub trigger; fetch current order json payloads from RESTful endpoint and parse them into Cloud SQL
 * requesthandler2.py
