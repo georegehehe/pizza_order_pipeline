@@ -1,4 +1,4 @@
-# Torqata Pizza Order Cloud-based Data Pipeline
+# Pizza Order E2E Cloud-based Data Pipeline
 
 This repo contains the source codes for a GCP implementation of an end-to-end data pipeline.
 The pipeline channels new pizza order information from a RESTful endpoint into a database; The data are then aggregated into statistics such as 
